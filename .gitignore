@@ -2,3 +2,5 @@ node_modules
 public
 dist
 *.log
+*.pem
+*.crx
