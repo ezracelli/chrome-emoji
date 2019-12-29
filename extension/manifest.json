@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome Emoji",
+    "description": "Styles emoji with a colored font.",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "*:\/\/*\/*" ],
+            "css": [ "public/css/styles.css" ],
+            "js": [ "public/app.js" ]
+        }
+    ],
+    "web_accessible_resources": [
+        "public/fonts/*"
+    ],
+    "permissions":  [
+        "activeTab"
+    ]
+}

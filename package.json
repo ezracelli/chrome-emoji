@@ -1,0 +1,24 @@
+{
+  "name": "chrome-emoji",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "main": "extension/src/main.js",
+  "scripts": {
+    "build": "webpack --production",
+    "build:dev": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "string-replace-loader": "^2.2.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "yargs": "^15.0.2"
+  }
+}
